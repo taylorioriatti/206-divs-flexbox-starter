@@ -98,21 +98,50 @@ textarea {
 
 html {
   background-color: #fff;
+  background: url(../img/leaf-bkgd.jpg) no-repeat center center fixed;
   height: 100%;
+  margin: 0;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Arima Madurai', cursive;
+  color:#fff;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+header{
+    font-family: "Arima Madurai", cursive;
+    font-size: 3em;
+}
+
+main{
+    font-family: "Arima Madurai", cursive;
+    font-size: 1.75em;
+}
+header,
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,7 +149,7 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  background-color: #5984f1;
+  background-color: rgb(15, 68, 20);
   height: 300px;
   display: flex;
   width: 30%;
@@ -128,9 +157,14 @@ body {
   align-items: center;
   padding-left: 10px;
   border: solid 2.5px #222;
-  font-family: "Lora", sans-serif;
+  border-radius: 10px;
+  font-family: "Arima Madurai", cursive;
 }
 
+footer{
+    font-family: "Lobster Two", cursive;
+    font-size: 1.25em;
+}
 
 
 
